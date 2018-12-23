@@ -1,0 +1,128 @@
+@charset "UTF-8";
+.header, .container, .container-fluid, .modal-content {
+  font-family: "Microsoft JhengHei",sans-serif; }
+
+/* 選單按鈕 */
+.container .btn {
+  border-width: 2px; }
+
+.container .dropdown-item:hover {
+  color: white;
+  background-color: #007bff; }
+
+.container .navbar-brand {
+  padding: 0 0 .3em; }
+
+.soclink a:hover {
+  text-decoration: none; }
+
+/* Banner圖片輪播 */
+.header-carousel-item {
+  height: 450px; }
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center; }
+
+.bg-1 {
+  background-image: url(../images/banner01.jpg); }
+
+.bg-2 {
+  background-image: url(../images/banner02.jpg); }
+
+.bg-3 {
+  background-image: url(../images/banner03.jpg); }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+/* 圖片和文字排版 1 */
+.container-fluid {
+  position: relative; }
+
+.container-fluid .bg-main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center left;
+  background-image: url(../images/restaurant.jpg);
+  border-radius: 2px; }
+
+@media (min-width: 768px) {
+  /* 大於768px文字顏色 */
+  .text-md-dark {
+    color: #333333; }
+  .text-md-secondary {
+    color: #6c757d; }
+  .text-md-primary {
+    color: #007bff; }
+  .text-md-danger {
+    color: #dc3545; }
+  .text-md-info {
+    color: #17a2b8; }
+  .text-md-success {
+    color: #28a745; }
+  .text-md-hexschool {
+    color: #00cc99; }
+  .text-md-orange {
+    color: #f56c23; }
+  /* 大於768px按鈕顏色 */
+  .container .btn-md-outline-info {
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8; }
+  .container .btn-md-outline-info:hover {
+    color: #fff;
+    background-color: #17a2b8; }
+  .container .btn-md-outline-orange {
+    color: #f56c23;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f56c23; }
+  .container .btn-md-outline-orange:hover {
+    color: #fff;
+    background-color: #f56c23; } }
+
+.container .btn-outline-orange {
+  color: #f56c23;
+  background-color: transparent;
+  background-image: none;
+  border-color: #f56c23; }
+
+.btn-outline-orange:hover {
+  color: #fff;
+  background-color: #f56c23; }
+
+.text-hexschool {
+  color: #00cc99; }
+
+.bg-hexschool {
+  background-color: #00cc99; }
+
+/* 圖片和文字排版 2 */
+.container-fluid .bg-girl {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: url(../images/girl.jpg);
+  border-radius: 2px; }
+
+/* 輸入表單 input 寬度 */
+.formgroup .form-control {
+  border-width: 2px; }
+
+/* 底部背景圖片 */
+.bg-4 {
+  background-position: bottom center;
+  background-size: cover;
+  background-image: url(../images/bg01.jpg); }
+
+.bg-5 {
+  background-image: url(../images/bg02.jpg); }
+
+/*# sourceMappingURL=all.css.map */
